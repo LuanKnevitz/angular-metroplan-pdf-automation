@@ -1,0 +1,21 @@
+<form #simpleForm="ngForm" (ngSubmit)="getValues(simpleForm.value)">
+    <input type="text" ngModel name="user" placeholder="Coloque seu nome">
+    <br><br>
+    <input type="text" ngModel name="Disciplina1" placeholder="Coloque sua disciplina">
+    <br><br>
+    <input type="text" ngModel name="Disciplina2" placeholder="Coloque sua disciplina">
+    <br><br>
+    <input type="text" ngModel name="Disciplina3" placeholder="Coloque sua disciplina">
+    <br><br>
+    <input type="text" ngModel name="Disciplina4" placeholder="Coloque sua disciplina">
+    <br><br>
+    <input type="text" ngModel name="Disciplina5" placeholder="Coloque sua disciplina">
+    <br><br>
+    <input type="date" ngModel name="inicio" placeholder="Inicio do semestre">
+    <br><br>
+    <input type="date" ngModel name="final" placeholder="Final do semestre">
+    <br><br>
+    <input type="file" ngModel name="pdf">
+    <br><br>
+    <button>Enviar</button>
+</form>
